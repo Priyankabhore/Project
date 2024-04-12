@@ -76,6 +76,78 @@
 <html>
 <head>
     <title>Animal Submission Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+}
+
+.captcha-image {
+    margin-right: 10px;
+}
+
+.captcha-input {
+    flex: 1;
+    width: 100%;
+}
+
+    </style>
     
 </head>
 <body>
